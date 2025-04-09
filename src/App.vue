@@ -252,12 +252,12 @@ onMounted(() => {
       <div class="sidebar-header">
         <h2>分组</h2>
         <div class="header-actions">
-          <!-- <button class="icon-button" @click="exportConfig" title="导出配置">
+          <button v-if="false"  class="icon-button" @click="exportConfig" title="导出配置">
             <span class="icon">↓</span>
           </button>
-          <button class="icon-button" @click="importConfig" title="导入配置">
+          <button v-if="false" class="icon-button" @click="importConfig" title="导入配置">
             <span class="icon">↑</span>
-          </button> -->
+          </button>
           <button class="icon-button" @click="showAddGroup = true" title="添加分组">
             <span class="icon">+</span>
           </button>
